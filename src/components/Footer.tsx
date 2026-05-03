@@ -1,4 +1,4 @@
-import { Globe, Link2, GitBranch, Mail, MapPin, Phone } from "lucide-react";
+import { Globe, Link2, GitBranch, MapPin, Phone } from "lucide-react";
 
 const footerLinks = {
   Services: [
@@ -26,7 +26,6 @@ const socials = [
   { icon: Globe, href: "#", label: "Twitter" },
   { icon: Link2, href: "#", label: "LinkedIn" },
   { icon: GitBranch, href: "#", label: "GitHub" },
-  { icon: Mail, href: "mailto:hello@aiverotech.com", label: "Email" },
 ];
 
 export default function Footer() {
@@ -54,11 +53,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-primary" />
-                <span>+977 9800000000</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail size={14} className="text-primary" />
-                <span>hello@aiverotech.com</span>
+                <a href="tel:+9779860428022" className="hover:text-white transition-colors">+977 9860428022</a>
               </div>
             </div>
           </div>
