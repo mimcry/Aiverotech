@@ -42,10 +42,10 @@ export default function Navbar() {
             alt="AiveroTech"
             width={40}
             height={40}
-            className="rounded-lg w-20 h-20 object-contain pt-2 "
+            className="rounded-lg w-20 h-20 object-contain  "
             priority
           />
-          <span className="text-lg font-semibold tracking-tight leading-none -ml-6">
+          <span className="text-lg font-semibold tracking-tight leading-none ">
             Aivero<span className="text-gradient">Tech</span>
           </span>
         </Link>

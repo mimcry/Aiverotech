@@ -43,7 +43,7 @@ export default function Footer() {
                 height={40}
                 className="rounded-lg w-20 h-20 object-contain"
               />
-              <span className="text-lg font-semibold tracking-tight leading-none -ml-4">
+              <span className="text-lg font-semibold tracking-tight leading-none">
                 Aivero<span className="bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">Tech</span>
               </span>
             </div>
