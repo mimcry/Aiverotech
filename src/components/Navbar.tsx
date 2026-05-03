@@ -40,8 +40,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="AiveroTech"
-            width={90}
-            height={90}
+            width={40}
+            height={40}
             className="rounded-lg w-20 h-20 object-contain pt-2 "
             priority
           />

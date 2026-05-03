@@ -39,8 +39,8 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="AiveroTech"
-                width={90}
-                height={90}
+                width={40}
+                height={40}
                 className="rounded-lg w-20 h-20 object-contain"
               />
               <span className="text-lg font-semibold tracking-tight leading-none -ml-4">
