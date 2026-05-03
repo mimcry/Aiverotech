@@ -38,6 +38,11 @@ export const metadata: Metadata = {
     description:
       "AI-first technology partner for startups and enterprises.",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/logo.png",
+  },
   robots: {
     index: true,
     follow: true,

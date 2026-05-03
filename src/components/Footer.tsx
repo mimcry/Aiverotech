@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Globe, Link2, GitBranch, MapPin, Phone } from "lucide-react";
 
 const footerLinks = {
@@ -30,16 +31,20 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/[0.06] bg-black">
+    <footer className="border-t border-white/6 bg-black">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
           <div className="col-span-2 lg:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-sm">A</span>
-              </div>
-              <span className="text-lg font-semibold tracking-tight">
-                AiveroTech
+            <div className="flex flex-row items-center ">
+              <Image
+                src="/logo.png"
+                alt="AiveroTech"
+                width={90}
+                height={90}
+                className="rounded-lg w-20 h-20 object-contain"
+              />
+              <span className="text-lg font-semibold tracking-tight leading-none -ml-4">
+                Aivero<span className="bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">Tech</span>
               </span>
             </div>
             <p className="text-sm text-muted max-w-xs leading-relaxed mb-6">
@@ -53,7 +58,9 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-primary" />
-                <a href="tel:+9779860428022" className="hover:text-white transition-colors">+977 9860428022</a>
+                <a href="tel:+9779860428022" className="hover:text-white transition-colors">
+                  +977 9860428022
+                </a>
               </div>
             </div>
           </div>
@@ -79,7 +86,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-12 pt-8 border-t border-white/6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted">
             &copy; {new Date().getFullYear()} AiveroTech. All rights reserved.
           </p>
