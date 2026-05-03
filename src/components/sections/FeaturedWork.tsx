@@ -9,8 +9,7 @@ const project = {
   client: "Trupasko Services LLC",
   location: "New York City, USA",
   category: "Full-Stack Web Platform",
-  url: "https://www.nychiluxlimo.com",
-  
+  url: "https://www.nychiluxlimo.com",  
   description:
     "A luxury transportation platform for NYC's premier limousine service — fully licensed by the Taxi and Limousine Commission of NYC. Customers book rides, drivers manage trips, and admins control everything from a single dashboard.",
   problem: "Fully manual booking and dispatch process with no real-time visibility for drivers or customers",
