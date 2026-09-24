@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -131,6 +132,11 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <Script
+          src="https://api.dentelo.ai/api/v1/chat/widget.js"
+          data-dentelo-key="bd659eef3f9914e043b11f8045a5b98f"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
